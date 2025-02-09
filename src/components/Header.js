@@ -30,7 +30,7 @@ const Header = () => {
     <div className="header">
       <div className="container">
         <div>
-          <Link className="logo" to="/">
+          <Link className="logo" to="/Rotten-Eggs-V2-ReactJs">
             <img src="/imgs/egg.png" alt="Rotten Eggs Logo" />
             <p>
               Rotten <span>Eggs</span>

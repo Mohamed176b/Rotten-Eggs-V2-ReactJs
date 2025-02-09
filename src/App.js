@@ -15,7 +15,7 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path='*' element={<div id='error'>Error 404: Not Found</div>}></Route>
-        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/Rotten-Eggs-V2-ReactJs' element={<Home></Home>}></Route>
         <Route path='/search' element={<Search></Search>}></Route>
         <Route path='/picked' element={<Picked></Picked>}></Route>
         <Route path='/bycat' element={<ByCat></ByCat>}></Route>
