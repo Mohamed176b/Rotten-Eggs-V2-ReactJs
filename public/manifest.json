@@ -1,0 +1,15 @@
+{
+  "short_name": "Rotten Eggs",
+  "name": "A comprehensive site for movies and series that allows you to explore details of cinematic and television works, including cast, ratings, and story summaries. Your reliable source for everything related to the world of cinema.",
+  "icons": [
+    {
+      "src": "imgs/egg.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
