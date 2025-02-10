@@ -35,7 +35,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div className="box footer-gallery">
-                <img src="../../public/imgs/egg.png" alt="img" />
+                <img src="%PUBLIC_URL%/imgs/egg.png" alt="img" />
                 <h3>Rooten <span className="eggs-foot">Eggs</span></h3>
             </div>
         </div>
