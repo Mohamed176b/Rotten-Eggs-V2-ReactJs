@@ -1,7 +1,7 @@
 # Rotten Eggs
 
 **Rotten Eggs** is a comprehensive website dedicated to movies and series, designed to be your reliable source for everything related to the world of cinema. The site allows users to explore detailed information about cinematic and television works, including cast members, ratings, and story summaries.
-## [See Website](https://mohamed176b.github.io/Rotten-Eggs-V2-Reactjs/)
+## [See Website](https://mohamed176b.github.io/Rotten-Eggs-V2-ReactJs/)
 
 ## Features
 
@@ -22,7 +22,7 @@
 - **Framework**: ReactJs.
 
 ### Back-End
-- **External API**: The back-end functionality is powered by an external API that provides data for movies and series. This API fetches details like cast, ratings, and others. [Movies Verse](https://www.allthingsdev.co/apimarketplace/movies-verse/666d560bf86d656f8341e0a9)
+- **External API**: The back-end functionality is powered by an external API that provides data for movies and series. This API fetches details like cast, ratings, and others. [Movies Verse](https://www.allthingsdev.co/apimarketplace/movies-verse)
 
 ## Project Highlights
 
