@@ -8,6 +8,7 @@ const Home = () => {
   const [mostPopularMoviesresults, mostPopularMoviessetResults] = useState([]);
   const [getMoviesByGenreResults, getMoviesByGenresetResults] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [loadingGen, setLoadingGen] = useState(true);
   const [genres, setGenres] = useState([]);
   const [selectedGenre, setSelectedGenre] = useState("action");
   const [index, setIndex] = useState(0);
@@ -59,7 +60,7 @@ const Home = () => {
   // Movies by geners
   useEffect(() => {
     const fetchMovies = async () => {
-      setLoading(true);
+      setLoadingGen(true);
       try {
         const movieData = await getMoviesByGenre(selectedGenre);
         getMoviesByGenresetResults(movieData.movies || []);
@@ -67,7 +68,7 @@ const Home = () => {
         console.error("Failed to fetch movies by genre:", err);
         getMoviesByGenresetResults([]);
       } finally {
-        setLoading(false);
+        setLoadingGen(false);
       }
     };
     fetchMovies();
@@ -228,7 +229,7 @@ const Home = () => {
             </div>
           ))}
         </div>
-        {loading && <div className="spinner spinner-mov-gen"></div>}
+        {loadingGen && <div className="spinner spinner-mov-gen"></div>}
         <div className="con-arrows">
           <div className="arrows arr-left" id="arr-left-gen" onClick={() => {
             document.querySelector('.gen-movies').scrollBy({ left: -300, behavior: 'smooth' });
