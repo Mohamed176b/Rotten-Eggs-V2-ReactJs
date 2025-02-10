@@ -275,7 +275,7 @@ const Home = () => {
       <div className="container">
         {/* Upcoming Movies */}
         <div className="upcoming-main-div">
-          <Link to="/Rotten-Eggs-V2-ReactJs/upcoming?cat=movies" className="up-t-i">
+          <Link to="/upcoming?cat=movies" className="up-t-i">
             <p className="sec-p">Upcoming Movies</p>
             <i className="fa-solid fa-arrow-right"></i>
           </Link>
@@ -284,7 +284,7 @@ const Home = () => {
 
         {/* Upcoming TV Shows */}
         <div className="upcoming-main-div tv-spec">
-          <Link to="/Rotten-Eggs-V2-ReactJs/upcoming?cat=tvshows" className="up-t-i">
+          <Link to="/upcoming?cat=tvshows" className="up-t-i">
             <p className="sec-p">Upcoming TV Shows</p>
             <i className="fa-solid fa-arrow-right"></i>
           </Link>
@@ -296,7 +296,7 @@ const Home = () => {
       <div className="container">
         {/* Movie News */}
         <div className="news-outBox">
-          <Link to="/Rotten-Eggs-V2-ReactJs/news?news=movies" className="up-t-i">
+          <Link to="/news?news=movies" className="up-t-i">
             <p className="sec-p">Movies News</p>
             <i className="fa-solid fa-arrow-right"></i>
           </Link>
@@ -305,7 +305,7 @@ const Home = () => {
 
         {/* Celebrity News */}
         <div className="news-outBox">
-          <Link to="/Rotten-Eggs-V2-ReactJs/news?news=celebrities" className="up-t-i">
+          <Link to="/news?news=celebrities" className="up-t-i">
             <p className="sec-p">Celebrities News</p>
             <i className="fa-solid fa-arrow-right"></i>
           </Link>
@@ -315,7 +315,7 @@ const Home = () => {
     </div>
     <div className="born">
       <div className="container">
-        <Link to="/Rotten-Eggs-V2-ReactJs/born" className="up-t-i">
+        <Link to="/born" className="up-t-i">
           <p className="sec-p">Born Today</p>
           <i className="fa-solid fa-arrow-right"></i>
         </Link>

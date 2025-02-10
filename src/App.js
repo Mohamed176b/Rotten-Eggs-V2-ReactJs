@@ -17,15 +17,15 @@ function App() {
         <Route path='*' element={<div id='error'>Error 404: Not Found</div>}></Route>
         <Route path='/Rotten-Eggs-V2-ReactJs' element={<Home></Home>}></Route>
         <Route path='/search' element={<Search></Search>}></Route>
-        <Route path='/Rotten-Eggs-V2-ReactJs/picked' element={<Picked></Picked>}></Route>
-        <Route path='/Rotten-Eggs-V2-ReactJs/bycat' element={<ByCat></ByCat>}></Route>
-        <Route path='/Rotten-Eggs-V2-ReactJs/upcoming' element={<Upcoming></Upcoming>}></Route>
-        <Route path='/Rotten-Eggs-V2-ReactJs/news' element={<News></News>}></Route>
-        <Route path='/Rotten-Eggs-V2-ReactJs/born' element={<Born></Born>}></Route>
-        <Route path='/Rotten-Eggs-V2-ReactJs/born/picked' element={<Picked></Picked>}></Route>
-        <Route path='/Rotten-Eggs-V2-ReactJs/upcoming/picked' element={<Picked></Picked>}></Route>
-        <Route path='/Rotten-Eggs-V2-ReactJs/news/picked' element={<Picked></Picked>}></Route>
-        <Route path='/Rotten-Eggs-V2-ReactJs/bycat/picked' element={<Picked></Picked>}></Route>
+        <Route path='/picked' element={<Picked></Picked>}></Route>
+        <Route path='/bycat' element={<ByCat></ByCat>}></Route>
+        <Route path='/upcoming' element={<Upcoming></Upcoming>}></Route>
+        <Route path='/news' element={<News></News>}></Route>
+        <Route path='/born' element={<Born></Born>}></Route>
+        <Route path='/born/picked' element={<Picked></Picked>}></Route>
+        <Route path='/upcoming/picked' element={<Picked></Picked>}></Route>
+        <Route path='/news/picked' element={<Picked></Picked>}></Route>
+        <Route path='/bycat/picked' element={<Picked></Picked>}></Route>
       </Routes>
       <Footer></Footer>
     </Router>
