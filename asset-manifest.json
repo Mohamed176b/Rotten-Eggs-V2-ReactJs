@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Rotten-Eggs-V2-ReactJs/static/css/main.fc97b966.css",
+    "main.css": "/Rotten-Eggs-V2-ReactJs/static/css/main.6752fa90.css",
     "main.js": "/Rotten-Eggs-V2-ReactJs/static/js/main.795f05a2.js",
     "static/js/453.2773650d.chunk.js": "/Rotten-Eggs-V2-ReactJs/static/js/453.2773650d.chunk.js",
     "index.html": "/Rotten-Eggs-V2-ReactJs/index.html",
-    "main.fc97b966.css.map": "/Rotten-Eggs-V2-ReactJs/static/css/main.fc97b966.css.map",
+    "main.6752fa90.css.map": "/Rotten-Eggs-V2-ReactJs/static/css/main.6752fa90.css.map",
     "main.795f05a2.js.map": "/Rotten-Eggs-V2-ReactJs/static/js/main.795f05a2.js.map",
     "453.2773650d.chunk.js.map": "/Rotten-Eggs-V2-ReactJs/static/js/453.2773650d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc97b966.css",
+    "static/css/main.6752fa90.css",
     "static/js/main.795f05a2.js"
   ]
 }
