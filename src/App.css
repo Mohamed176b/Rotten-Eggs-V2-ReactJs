@@ -1238,7 +1238,7 @@ to {
 /* End Cat page */
 /* Start News Page */
 .news-yt {
-  justify-content: flex-start !important;
+  /* justify-content: flex-start !important; */
 }
 .news-src {
   margin-left: 15px !important;
