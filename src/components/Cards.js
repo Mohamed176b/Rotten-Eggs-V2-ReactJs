@@ -8,7 +8,7 @@ const MovieCard = ({ movie, index = null }) => {
 
   return (
     <Link
-      to={`picked?movie=${movieDataEncoded}`}
+      to={`/Rotten-Eggs-V2-ReactJs/picked?movie=${movieDataEncoded}`}
       className={`movie-card ${index !== null ? "top" : ""}`}
       {...(index !== null ? { "top-value": index } : {})}
     >
@@ -35,7 +35,7 @@ const renderUpcomingCards = (data) =>
     const upDateData = encodeURIComponent(JSON.stringify(item.date));
 
     return (
-      <Link key={upTitle} to={`picked?up=${upData}&date=${upDateData}`} className="up-card">
+      <Link key={upTitle} to={`/Rotten-Eggs-V2-ReactJs/picked?up=${upData}&date=${upDateData}`} className="up-card">
         <img src={upImg} alt={upTitle} className="up-img" />
         <div>
           <h5 className="up-h">{upTitle}</h5>
@@ -80,7 +80,7 @@ const renderNewsCards = (newsData) =>
     const newsDataEncoded = encodeURIComponent(JSON.stringify(news));
 
     return (
-      <Link key={title} to={`picked?news=${newsDataEncoded}`} className="new-news">
+      <Link key={title} to={`/Rotten-Eggs-V2-ReactJs/picked?news=${newsDataEncoded}`} className="new-news">
         <div className="news-img-div">
           <img src={newsImg} alt={title} className="news-img" />
         </div>
@@ -98,7 +98,7 @@ const BornTodayCard = ({ act }) => {
   const actDataEncoded = encodeURIComponent(JSON.stringify(act));
 
   return (
-    <Link key={name} to={`picked?act=${actDataEncoded}`} className="act-born">
+    <Link key={name} to={`/Rotten-Eggs-V2-ReactJs/picked?act=${actDataEncoded}`} className="act-born">
       <div className="born-act-img">
         <img src={image} alt={name} />
       </div>

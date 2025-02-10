@@ -36,7 +36,7 @@ export default function Born() {
                   const actData = encodeURIComponent(JSON.stringify(act));
 
                   return (
-                    <Link to={`picked?act=${actData}`} className="new-news" key={index}>
+                    <Link to={`/Rotten-Eggs-V2-ReactJs/picked?act=${actData}`} className="new-news" key={index}>
                       <div className="news-img-div born-img-div">
                         <img
                           src={image || "../imgs/newsAlt.jpg"}

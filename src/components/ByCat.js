@@ -39,7 +39,7 @@ export default function ByCat() {
               {movies.map((movie, index) => (
                 <a
                   key={index}
-                  href={`picked?movie=${encodeURIComponent(
+                  href={`/Rotten-Eggs-V2-ReactJs/picked?movie=${encodeURIComponent(
                     JSON.stringify(movie)
                   )}`}
                   className="up-card up-card2"
